@@ -1,0 +1,20 @@
+.container{
+    /*                        All these code understand about flexbox and most used properties are justify-content, align-items and flex direction and also flex wrap for responsive ness */
+    display: flex;
+    border: 2px solid gray;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+
+.items{
+background-color: black;
+text-align: center;
+color: white;
+border: 2px solid blue;
+margin: 20px;
+height: 120px;
+width: 120px;
+}
+
